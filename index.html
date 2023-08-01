@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+                * {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .menu {
+            align-items: baseline;
+        }
+        .bloco {
+            width: 25%;
+            margin: 10px;
+            text-align: justify;
+            
+        }
+        .container * {
+            align-items: center;
+        }
+        body > main, body > header, body > footer, body main section * {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        body main section * {
+            align-items: baseline;
+        }
+        body > header, .lista ul a {
+            color: #f5f6fa;
+            position: sticky;
+            top: 0;
+            background-color: #192a56;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        body > header * {
+            padding: 3px;
+        }
+        .lista {
+            background-color: #192a56;
+            padding: 10px;
+            border-radius: 10px;
+            width: 400px;
+        }
+        .lista ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .lista ul li {
+            width: 25%;
+            padding: 5px;
+        }
+        .lista {
+            position: absolute;
+            right: 3px;
+            top: 115px;
+            scale: 0;
+            transition-delay: 1s;
+        }
+        .nave:hover .lista {
+            scale: 100%;
+            transition: all 0.5s;
+        }
+        .nave:not(:hover) .lista {
+            scale: 0;
+            transition: all 0.5s;
+            transition-delay: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>7 news</h1>
+        <img src="https://via.placeholder.com/100x100">
+        <div class="nave">
+            <p>seções</p>
+            <div class="lista">
+                <ul>
+                    <li><a href="#sec_1">seção 1</a></li>
+                    <li><a href="#sec_2">seção 2</a></li>
+                    <li><a href="#sec_3">seção 3</a></li>
+                    <li><a href="#sec_4">seção 4</a></li>
+                    <li><a href="#sec_5">seção 5</a></li>
+                    <li><a href="#sec_6">seção 6</a></li>
+                    <li><a href="#sec_7">seção 7</a></li>
+                    <li><a href="#sec_8">seção 8</a></li>
+                    <li><a href="#sec_9">seção 9</a></li>
+                    <li><a href="#sec_10">seção 10</a></li>
+                    <li><a href="#sec_11">seção 11</a></li>
+                    <li><a href="#sec_12">seção 12</a></li>
+                    <li><a href="#sec_13">seção 13</a></li>
+                    <li><a href="#sec_14">seção 14</a></li>
+                    <li><a href="#sec_15">seção 15</a></li>
+                    <li><a href="#sec_16">seção 16</a></li>
+                    <li><a href="#sec_17">seção 17</a></li>
+                    <li><a href="#sec_18">seção 18</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="menu">
+        <section id="sec_1">
+            <h2>seção 1</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, doloribus quasi? Explicabo magnam nulla consequatur modi accusamus repellendus magni distinctio perferendis, mollitia reiciendis laudantium odit ab iure doloribus fuga facilis.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Eum atque ex rem ipsam corporis aspernatur incidunt quos in, voluptatibus perspiciatis, impedit placeat similique ea architecto doloremque saepe illo asperiores explicabo aliquid! Neque, explicabo. Aperiam iusto quo eligendi voluptas?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Atque alias dolor ducimus fuga commodi rerum temporibus tempora! Dicta eum quae alias reprehenderit, nemo fugiat, hic optio doloremque commodi ratione culpa! Quo eius eveniet mollitia odit rerum velit vitae.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Voluptatem laudantium facilis reiciendis minus veritatis itaque aperiam nostrum asperiores nemo corrupti culpa architecto, vel delectus temporibus fugit sapiente in? Provident odit ex veritatis incidunt perspiciatis neque nulla ad perferendis.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Veritatis voluptates ab, nobis a fugit accusantium iste modi voluptate architecto enim optio suscipit nostrum, omnis eos maiores totam beatae vel non aliquam neque quia! Veniam exercitationem voluptas corrupti molestias?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Aspernatur similique commodi, vero veritatis consequatur eius, tempore quod labore tempora quidem ullam hic necessitatibus aperiam, rem debitis sequi. Doloremque sapiente ex tempore delectus deserunt? Dolore facilis voluptatibus laudantium blanditiis.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_2">
+            <h2>seção 2</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita minima quam asperiores enim voluptates consequuntur veniam dolores sapiente dolore similique, laborum iste iure! Eaque, facilis sequi eos sed quod error.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Tenetur numquam doloribus, ea delectus harum ad perspiciatis magni assumenda. Eveniet placeat dolore itaque enim doloribus omnis tempora suscipit ea dolor. Voluptatem totam temporibus placeat doloremque sint dolor id expedita?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Eius libero accusamus cupiditate enim voluptatum delectus magnam repellendus assumenda tenetur excepturi quae ullam, numquam dolorum? Debitis neque sapiente animi quia ea maxime necessitatibus, autem libero, eligendi nemo sunt consequatur?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Laborum magni ex saepe esse consequuntur officiis cumque, distinctio veniam ea possimus laboriosam eius magnam quaerat eligendi aperiam voluptatum unde. Pariatur incidunt ab sequi, ratione consectetur voluptate error repudiandae. Numquam!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Numquam, a, doloribus placeat totam incidunt quibusdam fugit aspernatur dolorem, magni atque saepe iusto! Provident tempora aliquid magnam ratione velit voluptatibus quidem optio unde, exercitationem deserunt earum repellat, eius quae?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Facilis perspiciatis delectus asperiores animi molestiae assumenda quos id totam, quis accusantium illo beatae recusandae quae! Quaerat quidem sapiente assumenda enim sequi expedita quos voluptatum, praesentium omnis, placeat molestias harum.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_3">
+            <h2>seção 3</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo asperiores sint soluta ipsam. Dolor, placeat cum. Sunt, libero, deleniti repellat dicta eveniet sit voluptas optio distinctio, repellendus esse rerum unde.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Nam soluta eaque, expedita placeat, earum repudiandae voluptatem aspernatur mollitia eos repellendus, fuga fugiat sit blanditiis similique. Ad dignissimos sapiente expedita earum, fuga repudiandae ipsam explicabo, assumenda quas, qui facilis.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Autem, ab totam placeat fugit dolorum ducimus, ea officia ipsum alias fuga consectetur harum perferendis nam quas aspernatur facere? Dolores possimus illum et doloribus. Provident deserunt maxime est vitae soluta!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Tempora deleniti tenetur odit voluptates asperiores voluptatem veniam doloribus sunt, in rem molestias blanditiis ea ex delectus vel nostrum alias consequatur numquam cum sapiente distinctio! Unde laudantium adipisci laborum repellat.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>In minus non dicta hic nemo porro, officia dolorem neque dignissimos provident nihil natus veritatis eum possimus nesciunt quaerat dolore exercitationem corrupti eius soluta, odio nisi obcaecati! Ipsum, tempore. Totam!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>At, quia reiciendis quibusdam assumenda odit eos excepturi asperiores quis obcaecati ex exercitationem nulla tempora aut commodi error debitis fugiat provident illum! A voluptas dolorum, praesentium reprehenderit voluptates dolores ipsam!</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_4">
+            <h2>seção 4</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur modi nesciunt, minus est animi delectus, illo tempora eaque quisquam numquam repellendus itaque architecto assumenda velit officiis. Velit illo adipisci asperiores.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Quidem magnam eaque, inventore iure iste, perferendis rerum aliquid excepturi laboriosam impedit blanditiis. Accusamus reprehenderit praesentium eius voluptates tempore sed nesciunt pariatur nulla, iste quis magni unde neque ea placeat?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Eligendi soluta officiis harum quaerat magnam optio ipsam, laboriosam cupiditate eos repellendus numquam iure. Facilis voluptatem fuga quos doloribus ducimus assumenda quasi, nulla, nobis magnam, voluptates illum maiores dicta ad.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Dolorem dicta dolorum pariatur nemo, id, voluptatibus sint officia natus corporis incidunt magni quae labore. Accusantium, cumque fugit nisi error impedit ratione! Impedit, nihil velit! Voluptatum laboriosam earum totam eligendi!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Vel dolore error quas voluptate sequi pariatur iusto, accusantium mollitia laborum quos magni excepturi alias architecto, impedit deserunt aspernatur corporis iure quo quia repellat. Itaque nesciunt quis voluptates laboriosam facilis!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Quas, tenetur at reprehenderit optio saepe impedit in sint vero repellat nulla aliquam incidunt vel harum eum cumque eos error nam sed, magni nostrum! Quod reprehenderit dolor fugiat maiores doloribus.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_5">
+            <h2>seção 5</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae laudantium architecto a, repudiandae impedit earum! Omnis reiciendis facere quis placeat incidunt aliquid qui dolor! Commodi modi voluptatibus dolores libero veritatis?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Ad aliquam quas excepturi maiores, optio amet! Vitae ipsa nobis minus. Assumenda id nobis labore dolor esse voluptatem accusantium incidunt, totam ut perferendis sunt velit nam ratione animi modi? Quae!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Temporibus voluptatem dicta adipisci dolorem sunt repellat commodi neque. Possimus consectetur mollitia exercitationem, cumque natus porro consequuntur impedit voluptatem nihil culpa sit at nulla saepe quae dolore ut consequatur unde.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Voluptate illum deleniti soluta error sint incidunt nisi ratione aliquid itaque vero quasi iste alias eum harum fugiat, molestiae cumque dicta nam impedit adipisci tempora ad! Ex fugiat ratione id.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Sit, quod fuga ad doloribus, cumque pariatur reprehenderit velit aperiam, dicta eius quae qui perferendis nemo exercitationem vel nam tempora fugiat corrupti tempore. Soluta saepe amet autem, minima totam quae!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Eaque repellendus quam laboriosam nihil sunt itaque nam eveniet, labore molestias culpa, ducimus perspiciatis, impedit magnam quia ut iusto? Aperiam, beatae excepturi magni ipsam illo maiores sunt cupiditate quis exercitationem?</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_6">
+            <h2>seção 6</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus fugit quisquam dicta corporis nisi distinctio beatae porro tenetur nobis, doloribus est odio. Eaque tempora est dolore iure, beatae doloremque repellat?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Voluptatum tempore nisi quaerat architecto, odio possimus repellat eius excepturi, voluptate vitae, rem porro facere. Culpa sapiente qui, optio, sunt possimus rerum saepe consequatur incidunt veniam doloremque ratione iste labore?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Eius veritatis beatae temporibus distinctio recusandae, pariatur commodi impedit, nostrum earum delectus maxime. Repudiandae itaque quasi praesentium fugit voluptatum eum nostrum at deleniti quod repellat. Veritatis architecto possimus aut odit!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Repellendus atque facere, explicabo illum sit vero. Quos voluptas nostrum voluptatem iure id! Consequatur nemo eaque, iste vel possimus, quia facilis voluptas deserunt labore ea, omnis reiciendis rem at? Deserunt.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Beatae reprehenderit perferendis quis. Rem, iusto. Dicta ea obcaecati reprehenderit modi dolorem quisquam sapiente molestias. Repudiandae magnam nobis, itaque voluptate natus minima aperiam, doloribus molestiae illum nemo architecto facere non?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Voluptas aliquam repellat officiis inventore, recusandae voluptatibus et cum iste distinctio quod, numquam quis harum magni eius tempore dignissimos cumque, soluta labore adipisci nesciunt beatae incidunt architecto! Nihil, laborum saepe!</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_7">
+            <h2>seção 7</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, saepe id? Minima aspernatur debitis repudiandae nemo earum ab ducimus dignissimos, expedita magni ullam reiciendis qui, porro pariatur saepe iusto quas?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Repellendus sit soluta excepturi debitis, maxime voluptate asperiores, eos quo animi beatae saepe cum aliquid cumque quibusdam perferendis quisquam, praesentium accusamus. Ea quasi voluptates asperiores esse beatae odit nobis laudantium.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Error atque consequuntur quas vel, doloribus maiores magni, accusamus ab aperiam repellendus voluptate tempora. In eum quos dolore porro ducimus, rerum eos aliquid, ab nihil officiis molestias iusto maxime soluta?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Animi, id vero? Eaque, velit repellendus. Hic sapiente nobis quis dicta numquam veritatis libero magnam, accusantium illo excepturi enim laboriosam architecto quidem odio unde temporibus consequuntur amet culpa dolor impedit.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Qui deleniti harum quibusdam autem necessitatibus eligendi labore adipisci suscipit obcaecati dicta temporibus, mollitia eos ullam reprehenderit, voluptatibus saepe quae dolore minima et ducimus! Dolorem illo minus quaerat rem fuga?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Praesentium ratione itaque iste, quas assumenda tenetur provident magni eligendi impedit animi recusandae cupiditate placeat laborum eaque adipisci molestias deleniti sapiente enim alias repudiandae rem. A quia fuga error expedita.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_8">
+            <h2>seção 8</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iure quas possimus rerum excepturi, consequatur molestiae nisi et distinctio, sunt iste magni exercitationem ullam sit alias vitae est sint! Aut!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Ducimus optio molestiae, eum eligendi eaque maxime dignissimos quam quod, reprehenderit quasi culpa architecto officiis ullam perferendis totam atque est accusantium mollitia temporibus iusto nesciunt, repellat enim. Maxime, error officia.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Aspernatur aliquam, reiciendis esse vero mollitia adipisci sunt quis placeat dolorem optio nemo laudantium natus, dignissimos architecto tempore quisquam magni nisi, doloremque consequuntur. Cupiditate, nemo quas! Aliquam iusto praesentium tempore!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Accusantium molestias, est rem, facilis minus consequuntur, quae officia et eius iste eum assumenda vel corporis aliquid odio tempore aspernatur quibusdam nam deleniti aliquam. Perferendis, saepe! Architecto nostrum sunt quam!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Eos, ipsum vel ipsa mollitia eaque corrupti maiores rerum adipisci. Maiores fugiat voluptate ullam voluptates magnam sunt, illum vero praesentium sit, rerum deserunt architecto quis non inventore, nobis quidem quo.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Nostrum, quaerat illum! Dicta accusamus perferendis dolorum tempore, inventore veniam deserunt, eos similique rerum in eligendi iusto. Soluta incidunt beatae amet excepturi, mollitia aspernatur possimus recusandae sapiente nisi! Ab, sapiente.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_9">
+            <h2>seção 9</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iste iure accusamus minima sapiente! Sed delectus dolor laborum illum voluptatum sapiente iste cumque, sint incidunt, eligendi accusantium culpa impedit exercitationem.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Voluptates nemo laboriosam dignissimos eligendi quisquam quia reiciendis non, assumenda optio veniam! Aspernatur sed quidem culpa libero aperiam, itaque eligendi adipisci dicta mollitia delectus enim iure sit cupiditate accusantium qui.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Adipisci accusantium voluptates soluta. Exercitationem optio excepturi sapiente velit temporibus deserunt dignissimos quidem corrupti. Obcaecati, iusto consectetur earum harum, eum fugiat quas vitae nemo cupiditate dolorem inventore dolor tenetur rem.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Porro quos blanditiis, nihil beatae fugit nobis. Mollitia voluptates necessitatibus, laboriosam doloremque quis recusandae ducimus veritatis quia totam. Dolore saepe iste architecto, nemo veniam esse illo? Atque esse obcaecati tenetur?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Odit sed suscipit, sequi asperiores natus doloribus ad iste ut id, quae in molestiae voluptas! Quasi, in rem temporibus fugit officia iure earum minus provident magnam aut aperiam. Ratione, repellat.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Beatae sed, reiciendis alias, fuga fugiat, delectus cumque tenetur velit repellendus aspernatur ratione temporibus nobis! Est optio consequatur praesentium qui dolores, eius tempore magnam, recusandae nesciunt, culpa accusamus in omnis.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_10">
+            <h2>seção 10</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto magnam vitae, doloremque exercitationem, quam blanditiis tempore inventore tempora suscipit, officia ratione modi. Facere accusantium vitae harum doloremque beatae, perferendis odio!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Quas itaque ad iure fugiat voluptatum provident reiciendis inventore consequatur aliquid fugit, doloribus nostrum nobis ipsum, error laborum illum, sit soluta possimus perspiciatis nisi! Quis placeat accusamus minus impedit voluptatibus!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Exercitationem placeat, cum autem soluta neque fugiat laborum non sint. Provident, quos reiciendis placeat quae cupiditate iste optio saepe, maxime, doloremque dicta quidem assumenda nobis labore rem quis qui maiores?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Necessitatibus ullam sequi officia aspernatur error aut voluptatum tenetur quia quos eligendi. Quia assumenda atque quos sed culpa veniam eum! Architecto, eius esse! Quaerat consequuntur deserunt facere hic consequatur. Nulla.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Optio harum expedita officia nam fugit, dolores mollitia excepturi asperiores amet itaque. Doloremque sit autem incidunt expedita ipsa labore ullam. Repudiandae consequuntur assumenda corrupti asperiores debitis tempora sapiente sequi accusantium?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Ipsum ad odit minus magnam magni voluptatum deleniti nisi soluta officia amet alias atque labore dolorum quos laborum dignissimos perspiciatis quas excepturi, suscipit rem obcaecati totam? Rerum cum officiis assumenda.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_11">
+            <h2>seção 11</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, natus eos accusantium officia veritatis eligendi facilis ex qui consectetur distinctio, minima blanditiis voluptatibus accusamus explicabo neque architecto quos facere quisquam.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Saepe aliquam sequi magni, magnam corrupti reprehenderit, eaque obcaecati totam pariatur possimus autem nesciunt eius voluptatem ratione asperiores aspernatur sunt. Nulla expedita itaque quo molestiae quam labore culpa quia neque.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Corporis dolorum eos consequatur eligendi recusandae ab eum architecto repellendus commodi fugiat accusantium vitae nostrum itaque pariatur, libero possimus dolores mollitia totam dignissimos! Vitae facere, repudiandae minima laborum voluptatibus explicabo?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Earum non necessitatibus rerum repudiandae accusantium labore harum, illo sunt inventore nisi facilis neque veritatis! Rerum voluptatibus magni nisi voluptate adipisci culpa consectetur recusandae ratione cupiditate. Quod distinctio est in.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Tenetur ratione, et quae deserunt sunt odio ea. Non facilis corrupti id? Nesciunt nam eligendi, eius dignissimos maiores facere laborum, illum dolore beatae, nisi architecto tenetur iste sequi quo esse.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Sint nemo repudiandae impedit itaque incidunt ab asperiores. Eius quos voluptatum quibusdam esse eveniet id voluptates rerum tempore minus mollitia, ab, suscipit provident tempora! Est itaque possimus quis vel. Vero?</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_12">
+            <h2>seção 12</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem earum maxime debitis incidunt ipsa ad eos, vitae nesciunt explicabo quod veritatis, numquam sed quasi dolor itaque laudantium quia id pariatur.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Doloremque nulla eum assumenda ea. Possimus quam fugiat quo placeat obcaecati voluptatum laudantium. Eveniet voluptatem atque accusantium ad at laudantium, vero ut vitae nihil repellat sit cumque, quod voluptate nobis!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Hic dignissimos quidem eligendi et expedita ipsum repellat, quibusdam eum cupiditate explicabo iste aut blanditiis incidunt. Excepturi consectetur, libero, molestias sint beatae maiores distinctio non optio delectus recusandae cum sit!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Dolor eum excepturi repellendus et quia harum dignissimos, sit quas expedita sequi architecto suscipit odio nobis, repudiandae nisi esse distinctio ratione necessitatibus aliquam. Rerum minima ducimus, incidunt reprehenderit dolorum impedit.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Ipsum aspernatur perspiciatis sed facilis eveniet. Tempora quam eos minus quo molestias ullam tenetur fugiat. Tempora culpa voluptas rem repellendus, consectetur nobis odit quas veritatis sint repudiandae modi, debitis delectus.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Id incidunt amet aut? Vitae consequuntur et aliquid vero sint dolorem iure, incidunt dolores tempora aperiam at culpa? Eveniet, at quos? Illum, voluptates minus debitis quam ab quos deleniti omnis!</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_13">
+            <h2>seção 13</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta porro eaque dolore quis consequatur, beatae officia sequi neque quam dolor aperiam explicabo qui placeat, facere, dolorem quisquam nesciunt fuga.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>At ducimus provident sed velit nulla sit aliquam voluptatibus odit eaque ipsam, corporis animi sequi accusantium laudantium praesentium quam sapiente quo possimus rerum, reiciendis dolorem quibusdam veniam? Sequi, earum fugiat?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Possimus, esse! Facere dolor veritatis eum qui, assumenda sapiente perferendis voluptates odio aliquid, deleniti numquam, ipsum unde tempora pariatur. Dolores ipsum ut nulla iste illo molestiae temporibus eius commodi hic!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Minima similique in unde suscipit voluptate ut quia laboriosam architecto nobis blanditiis, et iure modi odio at vitae autem? Est quos, quisquam quas quaerat ut officiis cumque beatae porro repudiandae?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Aspernatur, vel dolorum! Amet esse dicta quaerat ipsa iusto tempora quae ad. Provident, similique aut. Nulla enim veritatis voluptate repellat ab consectetur corporis laborum ex, odio quia? Nemo, ipsa magni?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Quo assumenda laudantium est consequatur soluta iure doloremque. Sed, odit? Laudantium mollitia laboriosam quod consectetur minus aliquam obcaecati. Maxime sunt dignissimos rerum ducimus dicta? Facere vitae cupiditate qui deleniti molestias!</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_14">
+            <h2>seção 14</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, tempora nemo doloremque sint fugiat numquam amet, blanditiis aut cumque officiis vitae repudiandae excepturi ea sunt neque quasi, reiciendis maiores velit.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Praesentium earum aperiam magni illo, ut quisquam velit commodi molestias nesciunt modi eveniet sint animi aliquam suscipit tempora deleniti facilis? Pariatur consectetur eaque officia perferendis animi praesentium, explicabo odit iste?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Laudantium unde eos a pariatur, dolorem dolores harum ab quibusdam fuga saepe ipsa beatae iure iusto totam architecto accusantium illum. Est blanditiis recusandae reiciendis optio modi dolores odio sunt atque.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Quis dolorem architecto provident deserunt et perspiciatis reprehenderit. Pariatur quibusdam, esse, impedit sunt ab quaerat itaque exercitationem vel obcaecati molestias aliquam, doloribus dolores repellat dicta quas autem dolor magnam aspernatur.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Facere quam excepturi quis perspiciatis. Quia eligendi tenetur cupiditate commodi illum, nihil nulla adipisci architecto beatae molestiae consectetur impedit suscipit unde ducimus dignissimos deleniti atque, ut totam, vitae praesentium maiores?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Ad ducimus tempore nam, voluptas autem quam vitae asperiores sit est dicta ipsa eius sapiente aliquam maxime quae fugiat officiis porro voluptates. Atque animi amet ipsa dignissimos incidunt, pariatur aliquam!</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_15">
+            <h2>seção 15</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloremque veniam odio, et eligendi a delectus suscipit impedit ipsum sunt perferendis dolorum tempore nulla quas itaque repellendus optio, officiis deserunt!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Dolorum minus atque perferendis fugit, dolores quia alias molestias tempora enim recusandae ipsa consectetur deleniti sed quis! Nihil dolores necessitatibus inventore, quibusdam assumenda voluptatem eaque incidunt odio quae? Officia, labore.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Soluta delectus, quae excepturi at nostrum sit, sequi eius autem cum fuga ab reiciendis voluptas, explicabo molestias doloribus blanditiis! Qui, debitis dolores. Ducimus itaque soluta omnis blanditiis nam adipisci commodi.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Beatae et recusandae eaque, expedita eius sapiente nihil. Earum odit repellat magni repellendus deleniti neque perspiciatis veniam sunt consequuntur perferendis tempore consequatur temporibus atque voluptatibus aperiam recusandae laborum, ratione adipisci.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Illum dolorum adipisci voluptas est qui recusandae hic suscipit. Velit, dolorem, officiis dolor quas natus, modi dicta molestias deleniti ad eos ex fugit laborum quibusdam! Iusto esse ex nostrum praesentium.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Ab libero quam, sunt et nam voluptatibus repudiandae saepe veritatis facilis vel pariatur porro a mollitia voluptates quos labore fuga dignissimos eaque praesentium velit odio sapiente. Ex voluptatem sequi ducimus!</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_16">
+            <h2>seção 16</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero hic officia sit error saepe itaque consequatur aliquam culpa nobis dignissimos quia, natus voluptas non, ad reprehenderit, possimus consequuntur. Aliquid.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Dolorum, dolores? Sed dolorem magni obcaecati suscipit! Reiciendis suscipit tenetur magni, deleniti earum ex rerum unde distinctio asperiores, cupiditate amet placeat quibusdam alias doloribus eum ullam reprehenderit quis fugiat nihil?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Perferendis a distinctio error officiis recusandae, iste commodi fuga sequi est quos dolorem unde omnis at iure repellat quasi delectus repellendus maiores praesentium facere! Ea, repellendus facere? Veniam, maiores deleniti.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Cumque nihil unde sequi iure illo aspernatur debitis corrupti ipsam quia eum! Cumque officia ab repudiandae officiis, animi corrupti aliquid veritatis harum. Magni labore rem corrupti praesentium suscipit, explicabo nam!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Explicabo fugit itaque laborum ipsam quibusdam ullam vel recusandae reiciendis dolorum nam perspiciatis fuga deserunt non, culpa obcaecati omnis ab, repellendus eveniet rem minus ratione. Magnam ducimus dignissimos fugit similique.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Voluptate consequuntur dignissimos est et minus, modi ipsam nisi dolor at. Nostrum odio ipsa magni minima. Corrupti iure provident, animi in culpa consequatur facere assumenda, molestias eum ad accusamus similique!</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_17">
+            <h2>seção 17</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quos necessitatibus consequatur delectus sunt incidunt repellat quae explicabo. Consectetur fugiat ad quod earum, deserunt laboriosam vitae rem aliquam similique magnam.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Tempora vitae natus fugit eaque esse minima quod dolorem quibusdam, sed molestiae error aspernatur explicabo, quidem voluptatem sint temporibus, exercitationem molestias numquam recusandae! Aperiam commodi, reprehenderit aliquam qui assumenda nemo.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Enim error minima iusto vitae rerum quia laudantium, rem omnis alias nostrum fugiat sed maiores totam, quidem neque est laborum itaque libero. Quis architecto dicta dolor recusandae id quod dignissimos!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Eius aperiam illum veniam rerum, officiis quis hic itaque distinctio impedit ea neque ex inventore non consectetur cum qui maiores culpa libero. Dolorum, voluptate? Delectus accusantium nam hic optio recusandae?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Sapiente rem ratione recusandae at eligendi voluptate consequatur eos non quaerat libero atque quis numquam officiis, nulla neque ut cupiditate quo eius reiciendis pariatur quod beatae vel architecto tenetur. Ratione!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Dolor asperiores dolores saepe libero vel, non earum illo exercitationem doloribus voluptate dignissimos delectus quos eos provident maxime quam cumque consectetur itaque ratione eius accusamus quis recusandae. Deleniti, vitae officiis.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sec_18">
+            <h2>seção 18</h2>
+            <div class="container">
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima reiciendis tempore repudiandae veritatis consequuntur maiores laudantium corrupti fugit repellendus quidem. Reiciendis modi nobis recusandae laudantium nulla. Error molestias placeat itaque.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Commodi rerum et ipsum ratione ab, modi quo similique, dicta veniam alias quis minima voluptates fuga velit sit magni quae incidunt eos tenetur tempore officiis accusantium expedita. Fuga, ipsum eaque?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Qui commodi in perspiciatis provident voluptatibus quaerat nobis eligendi consequuntur maiores accusamus sint porro aliquid, officiis maxime officia nostrum cupiditate repellendus libero numquam nulla alias laboriosam. Mollitia eligendi culpa debitis.</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Et soluta vel, repellat aperiam nihil inventore iste quod vero repudiandae tempora dolore veritatis neque, sed beatae? Quo animi ducimus et error beatae atque soluta porro, recusandae dolor obcaecati distinctio?</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Deserunt adipisci minima ea eveniet labore quas unde, obcaecati accusamus aspernatur omnis sit, dignissimos reiciendis nobis illo earum harum, provident cupiditate. Qui et voluptate maxime, voluptatum voluptatibus eum ea quidem!</p>
+                </div>
+                <div class="bloco">
+                    <img src="https://via.placeholder.com/224x200" alt="">
+                    <p>Voluptatibus, officia dolorum rerum, hic distinctio dolores atque asperiores cupiditate incidunt obcaecati nostrum? Id a reiciendis repudiandae dicta laborum tenetur temporibus, consequatur harum dolorum! Sapiente corporis harum placeat quos officiis.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script>
+    $(document).ready(() => {
+        $('.lista ul li a').click(function (e) {
+            e.preventDefault()
+            const sla = $($(this).attr('href'))
+            let d = sla.offset().top
+            $('body').offset().top(d)
+            console.log(sla)
+        })
+    })
+</script>
+</html>
